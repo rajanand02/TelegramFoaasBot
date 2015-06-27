@@ -1,0 +1,16 @@
+{
+  "name": "fuck_off_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for fuck off as a service",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raj Anand",
+  "license": "",
+  "dependencies": {
+    "foaas-client": "^0.1.1",
+    "request": "^2.58.0",
+    "telegram-bot": "^0.1.0"
+  }
+}
