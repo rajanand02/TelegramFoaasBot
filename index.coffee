@@ -2,13 +2,6 @@ Telegram = require 'telegram-bot'
 request = require('request')
 
 tg = new Telegram(process.env.TELEGRAM_BOT_TOKEN)
-options = {
-        "useragent": "My duckduckgo app"
-        "no_redirects": "1"
-        "no_html": "0"
-}
-
-
 tg.on 'message', (msg) ->
   return unless msg.text
   msg.text = msg.text.replace('@fuck_off_bot','').replace('!','')
