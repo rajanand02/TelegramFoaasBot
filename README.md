@@ -1,9 +1,6 @@
-# TelegramDuckDuckGoBot
-Telegram instant result bot using duck duck go api - [@instantAnswerBot](https://telegram.me/instantAnswerBot)
+# Telegram Fuck Of As a Service Bot
+Fuck Of As a Service bot for telegram - [@fuck_off_bot](https://telegram.me/fuck_off_bot)
 
-Dependencies
+### For more
 
-##
-`https://github.com/orzFly/node-telegram-bot`
-
-`https://github.com/jawerty/node-ddg`
+visit - [http://www.foaas.com/](http://www.foaas.com/)
