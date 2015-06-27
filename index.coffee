@@ -14,7 +14,6 @@ tg.on 'message', (msg) ->
   msg.text = msg.text.replace('@fuck_off_bot','').replace('!','')
   console.log msg.text
   msg_array = msg.text.split('/')
-  console.log msg_array.length
   switch msg_array.length
     when 2 then url = 'http://www.foaas.com/'+msg_array[1]
     when 3 then url ='http://www.foaas.com/'+msg_array[1]+"/"+msg_array[2]
@@ -30,7 +29,6 @@ tg.on 'message', (msg) ->
   }
   request options, (error, response, body) ->
     if !error and response.statusCode == 200
-      console.log body
       if body.message and body.subtitle
         reply =  body.message + ''+ body.subtitle
       else
